@@ -1,4 +1,4 @@
-#app para normalizar direcciones
+#app para normalizar direcciones inicial
 from flask import Flask, request, jsonify
 from postal.parser import parse_address
 import re
